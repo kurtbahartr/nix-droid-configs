@@ -10,25 +10,7 @@
     helix
     git
     gh
-
-    # Some common stuff that people expect to have
-    #procps
-    #killall
-    #diffutils
-    #findutils
-    #utillinux
-    #tzdata
-    #hostname
-    #man
-    #gnugrep
-    #gnupg
-    #gnused
-    #gnutar
-    #bzip2
-    #gzip
-    #xz
-    #zip
-    #unzip
+    binutils
   ];
 
   # Backup etc files instead of failing to activate generation if a file already exists in /etc
