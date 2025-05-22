@@ -1,0 +1,31 @@
+# Nix-on-Droid Configs
+
+Configuration files for Nix-on-Droid.
+
+# Target workflow
+
+- [WIP] Revamped terminal shell (feat. [LunarShell](https://lunarshell.dev)+zsh)
+
+> Review the configuration files to see which packages are installed and configured.
+
+# Technologies involved
+
+- Nix
+- Nixpkgs
+- Nix Flakes
+- [TBD] Nix Home Manager
+- Termux
+
+# Pre-install steps
+
+- Review the packages and configs. Not everyone is content with my preferences.
+
+# Installation
+
+- Copy the files to `~/.config/nix-on-droid`.
+- `nix-on-droid switch`
+
+# Post-install steps
+
+- `gh auth login` if you use GitHub.
+- Pair your Android device through wireless debugging using `adb pair` if you're willing to use wireless debugging. Your current device can be paired with the hostname `localhost`.
